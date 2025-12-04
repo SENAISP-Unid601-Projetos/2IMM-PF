@@ -311,7 +311,7 @@
     const projetos = document.querySelectorAll("#org_map > div");
     // Para cada projeto, adiciona o clique
     projetos.forEach((proj) => {
-      proj.addEventListener("click", () => {
+      proj.addEventListener("mouseover", () => {
         const conteudo = proj.innerHTML; // pega o que já existe dentro da div
         modalText.innerHTML = conteudo; // coloca no modal
         modal.style.display = "flex"; // abre modal
